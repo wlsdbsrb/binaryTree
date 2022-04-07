@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class BinarySearchTree {
-
     public Node root;
 
     public Node insert(Node node, int num){
