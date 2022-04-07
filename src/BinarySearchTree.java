@@ -19,7 +19,6 @@ public class BinarySearchTree {
         if(root == null) {
             return root;
         }
-
         if(num < root.data) { // 키가 루트보다 작다면, 왼쪽 서브 트리에 있는 것
             root.left = delete(root.left, num);
         }
